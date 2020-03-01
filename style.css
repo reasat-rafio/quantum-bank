@@ -9,6 +9,10 @@ body{
     box-shadow: 5px 5px 10px gray;
 }
 
+#login-area {
+    width: 100%;
+}
+
 #transaction-area {
     display: none;
 }
@@ -30,4 +34,15 @@ body{
 
 .balance {
     background-color: lightskyblue;
+}
+
+@media (max-width: 600px){
+    h1 {
+        font-size: 20px;
+        }
+
+    h5, h4 {
+        font-size: 20px;
+    }
+    
 }
